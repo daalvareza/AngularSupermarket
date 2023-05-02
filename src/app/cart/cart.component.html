@@ -1,0 +1,19 @@
+<section>
+  <h4>Carrito de compras</h4>
+  <div class="linea"></div>
+  <!--contenedor de productos-->
+  <div class="div-products-container">
+    <div id="flexStart">
+      <div  class="div-product" *ngFor="let product of cart">
+        <img [src]="product.image" alt="" class="product-small">
+        <h4>{{ product.name }}</h4>
+        <div><span>{{ product.price }}</span></div><br>
+        <div class="div-buy-options">
+          <div class="div-quantity">
+            <input type="number" id="quantity{{ product.id }}" name="quantity" min="1" max="100" value="1"></div>
+          <div class="btn-comprar">Comprar</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

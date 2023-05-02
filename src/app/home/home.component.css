@@ -1,0 +1,98 @@
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 50px;
+}
+
+.slider-frame {
+  width: 80%;
+  height: 80%;
+  margin: 20px auto 0;
+  overflow: hidden;
+  border: 5px solid black;
+}
+
+.slider-frame ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider-frame img {
+  width: 100%;
+}
+
+@keyframes slide {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+  75% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+}
+
+.contenedor-relacion-productos h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-listas-productos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  border-bottom: 10px;
+  overflow: auto;
+}
+
+.card {
+  cursor: pointer;
+  border: 3px solid black;
+}
+
+.card-img {
+  background: transparent;
+  margin-bottom: 15px;
+}
+
+.card-img img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.info-card {
+  display: flex;
+  justify-content: center;
+}
+
+.texto-producto {
+  color: #252525;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.texto-producto h3 {
+  color: inherit;
+  font-weight: inherit;
+  line-height: 15px;
+}
+
+.texto-producto h3:hover {
+  color:#666;
+}
+
+.texto-producto p {
+  color: #666;
+  font-size: 13px;
+}
+
+.texto-producto p:hover {
+  color:#252525;
+}

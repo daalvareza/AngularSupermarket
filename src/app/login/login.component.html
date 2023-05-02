@@ -1,0 +1,11 @@
+<div class="login-container">
+  <img src="assets/images/Logo Sp.png" alt="Logo">
+  <form>
+    <input type="text" name="email" placeholder="Corrreo Electronico" [(ngModel)]="email"><br><br>
+    <input type="{{ showPassword ? 'text' : 'password' }}" name="password" placeholder="Contraseña" [(ngModel)]="password"><br><br>
+    <input type="checkbox" name="show-password" [(ngModel)]="showPassword">Ver Contraseña<br><br>
+    <div *ngIf="error" style="color: red"> {{ error }}</div>
+    <button type="button" (click)="login()">Iniciar sesion</button>
+    <button type="button" (click)="register()">Registrate</button><br><br>
+  </form>
+</div>

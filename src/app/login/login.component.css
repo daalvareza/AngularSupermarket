@@ -1,0 +1,10 @@
+.login-container {
+  display: grid;
+  margin-top: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+img {
+  width: 200px;
+}

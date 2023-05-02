@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Arroz Diana VitAmor 5000 g",
+      "price": "$22.000 (gr a $4.4)",
+      "image": "assets/images/arroz%20diana.jfif"
+    },
+    {
+      "id": 2,
+      "name": "Aceile de girasol Premier 3000 ml",
+      "price": "$57.500 (ml a $19.16)",
+      "image": "assets/images/aceite.jfif"
+    },
+    {
+      "id": 3,
+      "name": "Pan Blanco Acti Defens Bimbo 600 g",
+      "price": "$11.200 (gr a $12.16)",
+      "image": "assets/images/pan.jfif"
+    },
+    {
+      "id": 4,
+      "name": "Queso Blanco Colanta bloque 250 g",
+      "price": "$ 8.300 (gr a $33.2)",
+      "image": "assets/images/queso.jfif"
+    },
+    {
+      "id": 5,
+      "name": "Spaghetti Familiar Nutrivit 1000 g",
+      "price": "$ 6.100 (gr a $6.1)",
+      "image": "assets/images/spaguetti.jfif"
+    }
+  ]
+}

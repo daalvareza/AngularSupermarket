@@ -1,0 +1,22 @@
+<header class="header">
+  <div class="logo" (click)="toHome()">
+    <img ngSrc="assets/images/Logo%20Sp.png"
+         alt="Logo" height="450" width="450">
+  </div>
+  <div class="barrabusqueda">
+    <form class="formulariodebarra" action="#" method="POST">
+      <div class="inputdebarra">
+        <input class="" type="search" placeholder="Buscar productos">
+        <input class="botonclick" type="submit" value="Buscar" />
+      </div>
+    </form>
+  </div>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="/login">INICIAR SESIÓN</a></li>
+      <li><a href="/login">REGISTRARSE</a></li>
+      <li><a (click)="toCart()">CARRO DE COMPRAS</a></li>
+      <li *ngIf="currentUser">{{currentUser}}</li>
+    </ul>
+  </nav>
+</header>

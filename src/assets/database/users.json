@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "email": "diego@gmail.com",
+      "password": "diego970415",
+      "role": "admin"
+    },
+    {
+      "id": 1,
+      "email": "john.doe@gmail.com",
+      "password": "password123",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "email": "jane.doe@gmail.com",
+      "password": "password456",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "email": "bob.smith@gmail.com",
+      "password": "password789",
+      "role": "user"
+    }
+  ]
+}
